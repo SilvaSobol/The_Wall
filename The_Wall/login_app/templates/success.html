@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Success</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href ="{% static 'sucess.css' %}">
+    </head>
+    <body>
+        <h1> Welcome to your account, {{ user.first_name }}</h1>
+        <br>
+        <p>You have been successfully registered/logged-in to your account!</p>
+        <br><br>
+        <hr>
+        <button type ="submit" class="btn"><a href="/wall">GO TO YOUR WALL</a></button>
+        <button type ="submit" class="btn"><a href="/log_out">LOG OUT</a></button>
+
+    </body>
+</html>

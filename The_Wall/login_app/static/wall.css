@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  /* a #none{
+      font-size: x-small;
+      margin-left: 860px;
+  } */
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn { 
+    float: left;
+    width: 75%;
+  }
+
+
+  hr{
+      background-color: orangered;
+      width: 20px;
+  }
+  .btn {
+    background-color: orangered;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    margin-left: 680px;
+}
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+ 
+  .comment{
+    background-color:lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+
+  @media screen and (max-width: 800px) {    /*responsive screen*/
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .posts{
+    padding:20px;
+    
+  }
+  .wrapper{
+    background-color: gray;
+  }
+  .block{
+    background-color: aliceblue;
+  }
